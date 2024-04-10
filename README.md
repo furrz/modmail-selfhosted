@@ -1,3 +1,13 @@
+# modmail-selfhosted
+
+This is a fork of [chamburr/modmail](https://github.com/chamburr/modmail) that makes some adjustments to help with self-hosting.
+
+ - Uses a custom build of [chamburr/twilight-dispatch](https://github.com/chamburr/twilight-dispatch/), [furrz/twilight-dispatch-selfhosted](https://github.com/furrz/twilight-dispatch-selfhosted), which removes a single dockerfile line that was forcing the project to build for a specific CPU architecture and caused problems when running in docker on M1.
+
+ - Strips out the website from the docker-compose configuration, because running the website only makes sense for the original modmail dev's official instance.
+
+ - Hosts new images for all of these in the GHCR, just to help with running these tweaked versions.
+
 # ModMail
 
 [![Discord](https://discord.com/api/guilds/576016832956334080/widget.png)][discord]
