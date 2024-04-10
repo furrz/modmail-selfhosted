@@ -8,6 +8,8 @@ This is a fork of [chamburr/modmail](https://github.com/chamburr/modmail) that m
 
  - Hosts new images for all of these in the GHCR, just to help with running these tweaked versions.
 
+If trying to run on M1 mac, be sure to use `docker compose build` - the hosted images do not seem to like cooperating on M1.
+
 # ModMail
 
 [![Discord](https://discord.com/api/guilds/576016832956334080/widget.png)][discord]

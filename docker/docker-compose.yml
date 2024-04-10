@@ -78,6 +78,7 @@ services:
 
   dispatch:
     image: ghcr.io/furrz/twilight-dispatch-selfhosted:latest
+    build: ./twilight-dispatch-selfhosted
     restart: unless-stopped
     environment:
       - RUST_LOG=info

@@ -1,0 +1,3 @@
+[submodule "docker/twilight-dispatch-selfhosted"]
+	path = docker/twilight-dispatch-selfhosted
+	url = https://github.com/furrz/twilight-dispatch-selfhosted
